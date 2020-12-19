@@ -9,7 +9,7 @@ namespace Kolokwium
         static void Fun(int mm)
         {
            int profile = 2000 / mm;
-           double odpadki = 2000 - ((profile * mm) - profile);
+           var odpadki = 2000 - ((profile * mm) - profile);
 
             Console.WriteLine($"Piłka wytnie {profile} profili i zostanie {odpadki} mm odpadków");
 
